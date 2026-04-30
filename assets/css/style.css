@@ -440,7 +440,7 @@ margin-bottom: 25px;
 * ----------------------------------------------------------------------------------------
 */
 .counter_feature {
-background:#0e5ca6;
+background:#1f1e5a;
 	position: relative;
 	margin-bottom: 80px;
 }
@@ -1004,7 +1004,7 @@ display: inline-block;
 }
 .pricingTable {
 	color: #fff;
-	background: #0e5ca6;
+	background: #1f1e5a;
 	text-align: center;
 	padding: 10px 10px 20px;
 	box-shadow: 0 10px 40px -10px rgba(0,64,128,.2);
@@ -1035,7 +1035,6 @@ display: inline-block;
 .pricingTable .pricingTable-header{ margin: 0 0 40px; }
 .pricingTable .pricingTable-header:before{
     content: "";
-    background: #fff;
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -1138,7 +1137,7 @@ display: inline-block;
 .pricingTable .pricingTable-signup a:hover{
 color:#ffaa17;
 }
-.pricingTable.blue{ background:#0e5ca6; }
+.pricingTable.blue{ background:#1f1e5a; }
 .pricingTable.blue:before,
 .pricingTable.blue:after,
 .pricingTable.blue .price-value,
@@ -1403,7 +1402,7 @@ text-transform: uppercase;}
 * 16.START ADDRESS DESIGN
 * ----------------------------------------------------------------------------------------
 */
-.contact_area{background:#0e5ca6;}
+.contact_area{background:#1f1e5a;}
 .single_address {}
 .single_address h4 {
 	font-weight: 600;
@@ -1679,8 +1678,8 @@ text-transform: capitalize;
   position: absolute;
   width: 100%;
   height: 100%;
-  background:#0e5ca6;
-  opacity:0.9;
+  background:#1f1e5a;
+  opacity:1;
   content: "";
   left: 0;
   top: 0;
@@ -1829,8 +1828,372 @@ position: relative;
 }
 .single_marketing h3{}
 .single_marketing p{overflow: hidden;}
+
+
+.site-logo span{
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.5px;
+}
+
+.single-project i{
+	color:white;
+	margin-bottom:15px;
+}
+
+.single-project{
+	transition:0.3s;
+}
+
+.single-project:hover{
+	transform:translateY(-8px);
+}
+
+
+.home_single_blog img{
+	height: 500px;
+	object-fit: cover;
+}
 /* ----------------------------------------------------------------------------------------
 * 21.END SERVICE PAGES DESIGN
 * ----------------------------------------------------------------------------------------
 */
 
+.section-top-title h1{
+	color: #fff;
+	font-size: 42px;
+	font-weight: 700;
+}
+
+.section-top-title p{
+	color: #fff;
+	font-size: 18px;
+	margin-top: 10px;
+}
+
+.single_feature i{
+	color: #1f1e5a;
+	margin-bottom: 15px;
+}
+
+.single_feature h4{
+	color: #1f1e5a;
+	font-weight: 600;
+}
+
+.single_feature{
+	transition: 0.3s;
+}
+
+.single_feature:hover i,
+.single_feature:hover h4{
+	color: #ffaa17; /* hover color change */
+}
+
+
+.single_logo i,
+.single_logo h5{
+	color:#1f1e5a;
+	margin-top:10px;
+}
+
+.pricingTable{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-height: 280px; /* எல்லா cards same height */
+}
+
+.pricing-content{
+	flex-grow: 1;
+}
+
+.pricingTable-header{
+	margin-bottom: 15px;
+}
+
+.pricingTable{
+	text-align: center;
+	padding: 20px;
+}
+
+
+.club_area {
+	background: #f8f9fa;
+}
+
+
+
+.club_card {
+	background: #fff;
+	padding: 20px;
+	border-radius: 12px;
+	box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+	text-align: center;
+	transition: 0.3s;
+	margin-bottom: 30px;
+}
+
+.club_card:hover {
+	transform: translateY(-10px);
+	box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.club_card img {
+	width: 100%;
+	height: 180px;
+	object-fit: cover;
+	border-radius: 10px;
+	margin-bottom: 15px;
+}
+
+.club_card h3 {
+	font-size: 22px;
+	margin-bottom: 10px;
+	font-weight: 600;
+}
+
+.club_card p {
+	font-size: 14px;
+	color: #666;
+	margin-bottom: 15px;
+}
+
+.club_card ul {
+	list-style: none;
+	padding: 0;
+}
+
+.club_card ul li {
+	font-size: 14px;
+	padding: 5px 0;
+	color: #444;
+	position: relative;
+}
+
+.club_card ul li::before {
+	content: "✔";
+	color: #28a745;
+	margin-right: 8px;
+}
+
+.portfolio_project_area img {
+	width: 100%;
+	height: 350px;          /* you can adjust (300–400) */
+	object-fit: cover;      /* important */
+	border-radius: 10px;    /* optional (modern look) */
+}
+
+.talent_area {
+	background: #f8f9fa;
+}
+
+
+
+.talent_card {
+	background: #1f1e5a;
+	color: white;
+	padding: 30px 20px;
+	border-radius: 15px;
+	text-align: center;
+	box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+	transition: 0.4s;
+	margin-bottom: 30px;
+	position: relative;
+	overflow: hidden;
+}
+
+.talent_card:hover {
+	transform: translateY(-10px);
+	box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+.talent_card .icon {
+	font-size: 40px;
+	margin-bottom: 15px;
+}
+
+.talent_card h3 {
+	font-size: 20px;
+	margin-bottom: 10px;
+	font-weight: 600;
+}
+
+.talent_card p {
+	font-size: 14px;
+	color:white;
+}
+
+/* fancy hover background effect */
+.talent_card::before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 0;
+	background: linear-gradient(45deg, #1f1e5a, #1f1e5a);
+	top: 0;
+	left: 0;
+	transition: 0.4s;
+	z-index: 0;
+	opacity: 0.1;
+}
+
+.talent_card:hover::before {
+	height: 100%;
+}
+
+.talent_card * {
+	position: relative;
+	z-index: 1;
+}
+
+.leadership_area {
+	background: #ffffff;
+}
+
+.leader_card {
+	background: #f8f9fa;
+	padding: 25px 15px;
+	border-radius: 12px;
+	text-align: center;
+	transition: 0.4s;
+	margin-bottom: 25px;
+	border: 1px solid #eee;
+}
+
+.leader_card:hover {
+	transform: translateY(-8px);
+	box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+	background: #fff;
+}
+
+.leader_card .icon {
+	font-size: 35px;
+	margin-bottom: 10px;
+}
+
+.leader_card h3 {
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 5px;
+}
+
+.leader_card h5 {
+	font-size: 14px;
+	color: #888;
+	margin-bottom: 10px;
+}
+
+.leader_card p {
+	font-size: 14px;
+	color: #555;
+}
+
+.leader_desc {
+	max-width: 700px;
+	margin: auto;
+	color: #666;
+	font-size: 15px;
+}
+
+.address_area {
+	background: linear-gradient(135deg, #f5f7fa, #e4ecf7);
+}
+
+
+
+.section-subtitle {
+	color: #666;
+	font-size: 15px;
+}
+
+/* GLASS EFFECT */
+.glass {
+	background: rgba(255, 255, 255, 0.6);
+	backdrop-filter: blur(12px);
+	border: 1px solid rgba(255,255,255,0.3);
+}
+
+/* CARD */
+.address_card {
+	padding: 30px 20px;
+	border-radius: 20px;
+	text-align: center;
+	transition: 0.4s;
+	box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+	position: relative;
+	overflow: hidden;
+}
+
+.address_card:hover {
+	transform: translateY(-12px) scale(1.02);
+	box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
+/* ICON */
+.icon {
+	width: 65px;
+	height: 65px;
+	line-height: 65px;
+	border-radius: 50%;
+	font-size: 26px;
+	margin: 0 auto 15px;
+	color: #fff;
+}
+
+/* GRADIENT ICONS */
+.gradient1 { background: linear-gradient(45deg, #ff9a9e, #fad0c4); }
+.gradient2 { background: linear-gradient(45deg, #43cea2, #185a9d); }
+.gradient3 { background: linear-gradient(45deg, #667eea, #764ba2); }
+.gradient4 { background: linear-gradient(45deg, #f7971e, #ffd200); }
+
+/* TEXT */
+.address_card h4 {
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.address_card p {
+	font-size: 14px;
+	color: #444;
+}
+
+.address_card span {
+	font-size: 12px;
+	color: #777;
+}
+
+/* LINKS */
+.address_card a {
+	color: #333;
+	text-decoration: none;
+}
+
+.address_card a:hover {
+	color: #007bff;
+}
+
+.address_card {
+	height: 260px;   /* adjust: 240 / 260 / 280 */
+}
+
+.map iframe {
+	box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+	border-radius: 15px;
+}
+
+.site-menu .nav-link.active {
+	color: #ffd700;   /* highlight color */
+	font-weight: 600;
+	position: relative;
+}
+
+.site-menu .nav-link.active::after {
+	content: "";
+	width: 100%;
+	height: 2px;
+	background: #ffd700;
+	position: absolute;
+	left: 0;
+	bottom: -5px;
+}
